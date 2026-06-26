@@ -33,9 +33,19 @@ déterministe (`engine/`).
 conversations.json`, groupé par date, recherche, renommer/supprimer), actions Copier/Régénérer +
 copie des blocs de code, raccourcis ⌘N/⌘K/⌘↵, carte « Résultat du moteur · exact », prose naturelle.
 
+## Modèle
+
+Les poids ne sont **pas** versionnés ici (2,5 Go) — ils sont hébergés sur le Hugging Face Hub :
+**[gptradeinvest/sigmaquant-copilot](https://huggingface.co/gptradeinvest/sigmaquant-copilot)**.
+
+```bash
+hf download gptradeinvest/sigmaquant-copilot sqsl-2.0-Q4_K_M.gguf --local-dir models
+# -> models/sqsl-2.0-Q4_K_M.gguf  (requis avant `bash scripts/bundle.sh`)
+```
+
 ## Prérequis
 - **Xcode** (complet) + **xcodegen** (`brew install xcodegen`).
-- Le modèle `sqsl-2.0-Q4_K_M.gguf` dans `models/` (artefact de release, non versionné).
+- Le modèle `sqsl-2.0-Q4_K_M.gguf` dans `models/` (voir ci-dessus).
 - Pour le repli dev sans bundle : `/usr/bin/python3` + `numpy`/`scipy` (`pip install -r engine/requirements.txt`)
   + `llama-server` (`brew install llama.cpp`).
 
