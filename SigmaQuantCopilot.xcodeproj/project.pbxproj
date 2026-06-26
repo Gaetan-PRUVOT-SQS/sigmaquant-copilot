@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D5D737F247CBF7CDD82EAC9 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4E2FCB3A4DE5A2D6ED049A /* Backend.swift */; };
+		5BBAA4C01D7589EBE525D109 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A528845832761C84859064BE /* ChatViewModel.swift */; };
+		73AA4A33F3DA6F92ED9DD5BF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33628A843F6DE2B4EA0928AE /* App.swift */; };
+		7ADE3AAF1439313C4AEF180B /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD43F879116854D7EA453636 /* Markdown.swift */; };
+		86A4C5E55B3AEF7A986D718B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61E5E573A799B6F6DCC7A03 /* Models.swift */; };
+		A8629C360FB3987CE39B1597 /* MessageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D55690A70569B1DF9E0FF30 /* MessageRow.swift */; };
+		AF64E278EF5EECFA8018C095 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4EA8DA4DF6876933346023 /* Sidebar.swift */; };
+		B7BF4DDEDC10C14815CD7F1C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1C164F7E59D17A9F54295 /* Theme.swift */; };
+		ED14960D0C985CBD4A1FFACA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947BA6B9FFB485AD20DB393 /* Store.swift */; };
+		F2415E2CE59921FB107609C8 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC3431AE14336A2A5F53363 /* RootView.swift */; };
+		F649D131180FA263C0C37C64 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A165DE21B07380B9203CCB7 /* ChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0947BA6B9FFB485AD20DB393 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		12A1C164F7E59D17A9F54295 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		33628A843F6DE2B4EA0928AE /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4A165DE21B07380B9203CCB7 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		9D55690A70569B1DF9E0FF30 /* MessageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRow.swift; sourceTree = "<group>"; };
+		A528845832761C84859064BE /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		AC4E2FCB3A4DE5A2D6ED049A /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		AD43F879116854D7EA453636 /* Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
+		B1F955217BA892B8B79D7B34 /* SigmaQuantCopilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigmaQuantCopilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC3431AE14336A2A5F53363 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C9693682DF5C1F159833447D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D61E5E573A799B6F6DCC7A03 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FC4EA8DA4DF6876933346023 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		75B5D8D142D8912CAFBADDCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F955217BA892B8B79D7B34 /* SigmaQuantCopilot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820E467992B523684AC81E84 /* SigmaQuant */ = {
+			isa = PBXGroup;
+			children = (
+				33628A843F6DE2B4EA0928AE /* App.swift */,
+				AC4E2FCB3A4DE5A2D6ED049A /* Backend.swift */,
+				4A165DE21B07380B9203CCB7 /* ChatView.swift */,
+				A528845832761C84859064BE /* ChatViewModel.swift */,
+				C9693682DF5C1F159833447D /* Info.plist */,
+				AD43F879116854D7EA453636 /* Markdown.swift */,
+				9D55690A70569B1DF9E0FF30 /* MessageRow.swift */,
+				D61E5E573A799B6F6DCC7A03 /* Models.swift */,
+				BDC3431AE14336A2A5F53363 /* RootView.swift */,
+				FC4EA8DA4DF6876933346023 /* Sidebar.swift */,
+				0947BA6B9FFB485AD20DB393 /* Store.swift */,
+				12A1C164F7E59D17A9F54295 /* Theme.swift */,
+			);
+			path = SigmaQuant;
+			sourceTree = "<group>";
+		};
+		CB0DD5E8FFFE27BD97D5AD0D = {
+			isa = PBXGroup;
+			children = (
+				820E467992B523684AC81E84 /* SigmaQuant */,
+				75B5D8D142D8912CAFBADDCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A759396DA7AD885D2940D0BE /* SigmaQuantCopilot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C03202D0A99347A358A81 /* Build configuration list for PBXNativeTarget "SigmaQuantCopilot" */;
+			buildPhases = (
+				1C5EC40FE0F3D65A095ADF51 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigmaQuantCopilot;
+			packageProductDependencies = (
+			);
+			productName = SigmaQuantCopilot;
+			productReference = B1F955217BA892B8B79D7B34 /* SigmaQuantCopilot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488F4EF26B657EBE99BBF2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A759396DA7AD885D2940D0BE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3E9C53E08043B54AE3309AA2 /* Build configuration list for PBXProject "SigmaQuantCopilot" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CB0DD5E8FFFE27BD97D5AD0D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75B5D8D142D8912CAFBADDCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A759396DA7AD885D2940D0BE /* SigmaQuantCopilot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5EC40FE0F3D65A095ADF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AA4A33F3DA6F92ED9DD5BF /* App.swift in Sources */,
+				1D5D737F247CBF7CDD82EAC9 /* Backend.swift in Sources */,
+				F649D131180FA263C0C37C64 /* ChatView.swift in Sources */,
+				5BBAA4C01D7589EBE525D109 /* ChatViewModel.swift in Sources */,
+				7ADE3AAF1439313C4AEF180B /* Markdown.swift in Sources */,
+				A8629C360FB3987CE39B1597 /* MessageRow.swift in Sources */,
+				86A4C5E55B3AEF7A986D718B /* Models.swift in Sources */,
+				F2415E2CE59921FB107609C8 /* RootView.swift in Sources */,
+				AF64E278EF5EECFA8018C095 /* Sidebar.swift in Sources */,
+				ED14960D0C985CBD4A1FFACA /* Store.swift in Sources */,
+				B7BF4DDEDC10C14815CD7F1C /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		141644C416697D33D7CE0D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SigmaQuant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmaquantsystems.copilot;
+				PRODUCT_NAME = "SigmaQuant Copilot";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20B1267B51D32E9360B97107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SigmaQuant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmaquantsystems.copilot;
+				PRODUCT_NAME = "SigmaQuant Copilot";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43F4D1BB4AC31BCC4B3C9D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmaquantsystems.copilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5FC60CB5C2E5ECB51D34CA7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigmaquantsystems.copilot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120C03202D0A99347A358A81 /* Build configuration list for PBXNativeTarget "SigmaQuantCopilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141644C416697D33D7CE0D75 /* Debug */,
+				20B1267B51D32E9360B97107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E9C53E08043B54AE3309AA2 /* Build configuration list for PBXProject "SigmaQuantCopilot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F4D1BB4AC31BCC4B3C9D61 /* Debug */,
+				5FC60CB5C2E5ECB51D34CA7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488F4EF26B657EBE99BBF2DA /* Project object */;
+}

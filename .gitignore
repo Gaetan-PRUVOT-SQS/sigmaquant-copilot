@@ -1,0 +1,24 @@
+# Weights / large artifacts (distributed via Releases, not git)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Build artifacts macOS (régénérables : xcodebuild + bundle.sh + PyInstaller)
+build/
+backend/build/
+backend/dist/
+*.app/
+
+# Xcode user state
+xcuserdata/

@@ -1,0 +1,14 @@
+SigmaQuant Copilot
+Copyright 2026 SigmaQuantSystems
+
+This product includes software developed by SigmaQuantSystems.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file.
+
+Ce produit embarque, à l'exécution, des composants tiers sous leurs licences
+respectives, notamment :
+  - llama.cpp / ggml (MIT) — serveur d'inférence local (resources/llama/)
+  - NumPy, SciPy (BSD-3-Clause) — moteur déterministe figé via PyInstaller
+
+Le modèle de poids (sqsl-2.0-Q4_K_M.gguf) est distribué séparément via les
+Releases du dépôt et n'est pas couvert par la licence du code.
